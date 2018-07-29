@@ -1,5 +1,5 @@
 package com.tools.math.calculator;
 
-public interface CalculatorWithAddOperationOnly<T> {
+public interface AddOperation<T> {
     T add(T a, T b);
 }

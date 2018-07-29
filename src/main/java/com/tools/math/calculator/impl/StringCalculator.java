@@ -1,9 +1,9 @@
 package com.tools.math.calculator.impl;
 
-import com.tools.math.calculator.CalculatorWithAddOperationOnly;
+import com.tools.math.calculator.AddOperation;
 
 public class StringCalculator
-        implements CalculatorWithAddOperationOnly<String> {
+        implements AddOperation<String> {
 
 
     @Override

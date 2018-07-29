@@ -1,7 +1,7 @@
 package com.tools.math.calculator;
 
 public interface Calculator<T>
-        extends CalculatorWithAddOperationOnly<T> {
+        extends AddOperation<T> {
 
     T subtract(T a, T b);
     T multiply(T a, T b);

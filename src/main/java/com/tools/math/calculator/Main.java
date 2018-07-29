@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Calculator<Integer> integerCalculator = new IntegerCalculator();
-        CalculatorWithAddOperationOnly<String> stringCalculator = new StringCalculator();
+        AddOperation<String> stringCalculator = new StringCalculator();
 
         System.out.println("result is: " + integerCalculator.add(6,4));
         System.out.println("result is: " + integerCalculator.subtract(6,4));

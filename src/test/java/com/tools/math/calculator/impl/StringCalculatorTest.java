@@ -1,6 +1,6 @@
 package com.tools.math.calculator.impl;
 
-import com.tools.math.calculator.CalculatorWithAddOperationOnly;
+import com.tools.math.calculator.AddOperation;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(JUnit4.class)
 public class StringCalculatorTest {
 
-    private CalculatorWithAddOperationOnly<String> calculator;
+    private AddOperation<String> calculator;
 
     @Before
     public void init() {
